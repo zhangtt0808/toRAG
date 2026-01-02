@@ -1,0 +1,165 @@
+{
+  "documents": [
+    {
+      "id": "doc1",
+      "content": "黄晓明，男，汉族，1968年2月出生，重庆长寿人，1990年8月参加工作，1996年1月加入中国共产党，自治区党校公共管理专业毕业。现任新疆维吾尔自治区阿克苏地区阿瓦提县人民检察院党组书记、副检察长。",
+      "metadata": {
+        "source": "人物档案",
+        "category": "政治人物"
+      }
+    },
+    {
+      "id": "doc2",
+      "content": "Go 语言是 Google 开发的开源编程语言，于2009年正式发布。Go 语言具有简洁的语法、强大的并发支持和优秀的性能，被广泛应用于后端服务开发、云原生应用和微服务架构。",
+      "metadata": {
+        "source": "技术文档",
+        "category": "编程语言"
+      }
+    },
+    {
+      "id": "doc3",
+      "content": "RAG（Retrieval-Augmented Generation）检索增强生成是一种结合信息检索和文本生成的技术。它通过检索相关文档来增强大语言模型的回答准确性，减少幻觉问题，提高回答的可信度。",
+      "metadata": {
+        "source": "AI技术",
+        "category": "机器学习"
+      }
+    },
+    {
+      "id": "doc4",
+      "content": "向量数据库是一种专门用于存储和检索高维向量的数据库系统。它使用相似度搜索算法（如余弦相似度、欧氏距离）来快速找到最相似的向量，广泛应用于推荐系统、图像搜索和语义搜索。",
+      "metadata": {
+        "source": "数据库技术",
+        "category": "数据存储"
+      }
+    },
+    {
+      "id": "doc5",
+      "content": "Ollama 是一个本地运行大语言模型的工具，支持多种开源模型如 Llama、Mistral、Qwen 等。它提供了简单的 API 接口，可以在本地部署和运行 LLM，无需依赖云端服务。",
+      "metadata": {
+        "source": "AI工具",
+        "category": "本地LLM"
+      }
+    },
+    {
+      "id": "doc6",
+      "content": "微服务架构是一种将应用程序构建为一系列小型、独立服务的架构模式。每个服务运行在自己的进程中，通过轻量级通信机制（通常是 HTTP RESTful API）进行通信。",
+      "metadata": {
+        "source": "架构设计",
+        "category": "软件架构"
+      }
+    },
+    {
+      "id": "doc7",
+      "content": "Docker 是一个开源的容器化平台，允许开发者将应用程序及其依赖项打包到轻量级、可移植的容器中。容器可以在任何支持 Docker 的环境中运行，确保应用在不同环境中的一致性。",
+      "metadata": {
+        "source": "容器技术",
+        "category": "DevOps"
+      }
+    },
+    {
+      "id": "doc8",
+      "content": "Kubernetes 是一个开源的容器编排平台，用于自动化部署、扩展和管理容器化应用程序。它提供了服务发现、负载均衡、自动扩缩容、自我修复等功能。",
+      "metadata": {
+        "source": "容器编排",
+        "category": "DevOps"
+      }
+    },
+    {
+      "id": "doc9",
+      "content": "Redis 是一个开源的内存数据结构存储系统，可以用作数据库、缓存和消息代理。它支持多种数据结构，如字符串、哈希、列表、集合等，具有高性能和低延迟的特点。",
+      "metadata": {
+        "source": "缓存技术",
+        "category": "数据存储"
+      }
+    },
+    {
+      "id": "doc10",
+      "content": "PostgreSQL 是一个功能强大的开源关系型数据库管理系统。它支持 ACID 事务、外键、触发器、视图等高级特性，还支持 JSON、数组、全文搜索等扩展功能。",
+      "metadata": {
+        "source": "数据库",
+        "category": "关系型数据库"
+      }
+    },
+    {
+      "id": "doc11",
+      "content": "Gin 是一个用 Go 语言编写的 HTTP Web 框架。它具有快速的路由、中间件支持、JSON 验证等功能，是 Go 语言中最受欢迎的 Web 框架之一。",
+      "metadata": {
+        "source": "Web框架",
+        "category": "Go语言"
+      }
+    },
+    {
+      "id": "doc12",
+      "content": "RESTful API 是一种基于 REST 架构风格的 Web API 设计规范。它使用标准的 HTTP 方法（GET、POST、PUT、DELETE）来操作资源，通过 URL 表示资源，使用 JSON 或 XML 格式传输数据。",
+      "metadata": {
+        "source": "API设计",
+        "category": "Web开发"
+      }
+    },
+    {
+      "id": "doc13",
+      "content": "JWT（JSON Web Token）是一种开放标准，用于在各方之间安全地传输信息。它由三部分组成：Header、Payload 和 Signature，常用于身份验证和授权。",
+      "metadata": {
+        "source": "安全技术",
+        "category": "身份认证"
+      }
+    },
+    {
+      "id": "doc14",
+      "content": "gRPC 是一个高性能、开源的远程过程调用（RPC）框架。它使用 Protocol Buffers 作为接口定义语言，支持多种编程语言，提供双向流、流式传输等高级特性。",
+      "metadata": {
+        "source": "RPC框架",
+        "category": "网络通信"
+      }
+    },
+    {
+      "id": "doc15",
+      "content": "Elasticsearch 是一个分布式、RESTful 风格的搜索和分析引擎。它基于 Apache Lucene 构建，提供了强大的全文搜索、实时分析和数据可视化功能。",
+      "metadata": {
+        "source": "搜索引擎",
+        "category": "数据检索"
+      }
+    },
+    {
+      "id": "doc16",
+      "content": "消息队列是一种异步通信机制，用于在分布式系统中解耦服务。常见的消息队列包括 RabbitMQ、Kafka、Redis Streams 等，它们支持发布-订阅、点对点等消息模式。",
+      "metadata": {
+        "source": "消息中间件",
+        "category": "分布式系统"
+      }
+    },
+    {
+      "id": "doc17",
+      "content": "CI/CD（持续集成/持续部署）是一种软件开发实践，通过自动化构建、测试和部署流程来提高开发效率和代码质量。常见的 CI/CD 工具包括 Jenkins、GitLab CI、GitHub Actions 等。",
+      "metadata": {
+        "source": "DevOps",
+        "category": "自动化"
+      }
+    },
+    {
+      "id": "doc18",
+      "content": "GraphQL 是一种用于 API 的查询语言和运行时。它允许客户端精确指定需要的数据，避免了 REST API 中的过度获取或获取不足的问题，提供了更灵活的数据查询方式。",
+      "metadata": {
+        "source": "API技术",
+        "category": "数据查询"
+      }
+    },
+    {
+      "id": "doc19",
+      "content": "Prometheus 是一个开源的监控和告警系统。它通过拉取方式收集指标数据，使用 PromQL 查询语言进行数据查询，常与 Grafana 配合使用进行数据可视化。",
+      "metadata": {
+        "source": "监控系统",
+        "category": "运维工具"
+      }
+    },
+    {
+      "id": "doc20",
+      "content": "分布式系统是由多个独立的计算机节点组成的系统，这些节点通过网络连接并协调工作。分布式系统需要解决一致性、可用性、分区容错性等挑战，常见的一致性算法包括 Raft、Paxos 等。",
+      "metadata": {
+        "source": "系统架构",
+        "category": "分布式计算"
+      }
+    }
+  ]
+}
+
